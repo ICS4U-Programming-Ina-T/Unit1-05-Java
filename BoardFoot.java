@@ -85,7 +85,7 @@ class BoardFoot {
                                            + " inch(es) long.");
 
                     } else {
-                        // displays errer for negative height
+                        // displays error for negative height
                         System.out.println(NEGATIVE_ERROR);
                     }
                 } catch (IllegalArgumentException exception) {
